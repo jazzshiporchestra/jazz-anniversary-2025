@@ -2,19 +2,23 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>爵序大樂團二週年音樂會</title>
   <meta name="description" content="台中爵序大樂團二週年音樂會，特別邀請指揮劉騰文、薩克斯風手邱瓶子、聲樂家黃愈平與孔孝誠，於帝國製糖廠夜景廣場展開爵士樂盛宴。">
-  <meta name="keywords" content="爵序大樂團, 台中活動, 爵士音樂, 台中爵士音樂節, Jazz Big Band, 台中音樂會, JazzShip Orchestra">
+  <meta name="keywords" content="爵士大樂團, 台中活動, 爵士音樂, 台中爵士音樂節, Jazz Big Band, 台中音樂會, JazzShip Orchestra">
   <meta name="author" content="爵序大樂團 JazzShip Orchestra">
   <style>
-    body {
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
       font-family: "Noto Sans TC", sans-serif;
+    }
+    body {
       background: url('https://i.meee.com.tw/GmUtCaJ.jpg') no-repeat center center fixed;
       background-size: cover;
       color: #f0e6d2;
-      margin: 0;
-      padding: 0;
     }
     body::before {
       content: "";
@@ -33,9 +37,11 @@
       padding: 40px 20px;
       background-color: rgba(0, 0, 0, 0.75);
       border-radius: 12px;
+      box-sizing: border-box;
     }
     h1, h2, h3 {
       color: #ffcc00;
+      margin-top: 0;
     }
     .highlight {
       background: #222;
@@ -64,19 +70,21 @@
     }
 
     /* 手機版最佳化 */
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
       .container {
+        width: 95%;
         padding: 20px 15px;
       }
       h1 {
-        font-size: 1.5em;
+        font-size: 1.8em;
       }
       h2 {
-        font-size: 1.2em;
+        font-size: 1.3em;
       }
       .cta {
         width: 100%;
         box-sizing: border-box;
+        text-align: center;
       }
     }
   </style>
@@ -106,7 +114,7 @@
 
     <div class="info">
       <h3>📍 活動資訊</h3>
-      <p>｜日期｜2025 年 9 月 27 日（六）<br>
+      <p>｜日期｜2025 年 9 月 27 日（六）17:00-19:00<br>
          ｜時間｜16:30 開放入場｜17:00 正式開演<br>
          ｜地點｜帝國製糖廠台中營業所・夜景廣場<br>
          （401 台中市東區樂業路 30 號）</p>
