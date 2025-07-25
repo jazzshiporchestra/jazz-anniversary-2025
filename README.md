@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>爵序大樂團二週年音樂會</title>
+  <meta name="description" content="台中爵序大樂團二週年音樂會，特別邀請指揮劉騰文、薩克斯風手邱瓶子、聲樂家黃愈平與孔孝誠，於帝國製糖廠夜景廣場展開爵士樂盛宴。">
+  <meta name="keywords" content="爵序大樂團, 台中活動, 爵士音樂, 台中爵士音樂節, Jazz Big Band, 台中音樂會, JazzShip Orchestra">
+  <meta name="author" content="爵序大樂團 JazzShip Orchestra">
   <style>
     body {
       font-family: "Noto Sans TC", sans-serif;
@@ -58,6 +61,23 @@
       margin-top: 2em;
       color: #888;
       font-size: 0.9em;
+    }
+
+    /* 手機版最佳化 */
+    @media screen and (max-width: 600px) {
+      .container {
+        padding: 20px 15px;
+      }
+      h1 {
+        font-size: 1.5em;
+      }
+      h2 {
+        font-size: 1.2em;
+      }
+      .cta {
+        width: 100%;
+        box-sizing: border-box;
+      }
     }
   </style>
 </head>
